@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+backend = "setuptools.build_meta"
+
+[project]
+name = "calculator"
+description = "Basic calculator application to learn python distribution"
+# readme = "README.rst"
+requires-python = ">=3.7"
+keywords = ["test", "args", "pytest", "toml", "mypy", "pylint", "flask"]
+# license = {LICENSE}
+classifiers = [
+    "Programming Language :: Python :: 3"
+]
+dependencies = [
+    "pylint",
+    "mypy",
+    "pytest",
+    "pytest-cov",
+    "tox",
+]
+version = "1.0.0"
