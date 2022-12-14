@@ -1,7 +1,8 @@
-"""File to create the module from a folder"""
+"""easier imports"""
 
-from calculator.add import add
-from calculator.sub import sub
-from calculator.multiply import mul
-from calculator.divide import div
-from calculator.absolute import abs
+from calculator.addition.add import add
+from calculator.subtraction.sub import sub
+from calculator.absolute.absolute import abso
+from calculator.multiplication.multiply import mul
+from calculator.division.divide import div
+from calculator.power.power import power

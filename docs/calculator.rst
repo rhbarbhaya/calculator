@@ -1,42 +1,26 @@
 calculator package
 ==================
 
-calculator.absolute module
---------------------------
+Subpackages
+-----------
 
-.. automodule:: calculator.absolute
-   :members:
-   :undoc-members:
-   :show-inheritance:
+.. toctree::
+   :maxdepth: 4
 
-calculator.add module
----------------------
+   calculator.absolute
+   calculator.addition
+   calculator.division
+   calculator.multiplication
+   calculator.power
+   calculator.subtraction
 
-.. automodule:: calculator.add
-   :members:
-   :undoc-members:
-   :show-inheritance:
+Submodules
+----------
 
-calculator.divide module
-------------------------
+calculator.main module
+----------------------
 
-.. automodule:: calculator.divide
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-calculator.multiply module
---------------------------
-
-.. automodule:: calculator.multiply
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-calculator.sub module
----------------------
-
-.. automodule:: calculator.sub
+.. automodule:: calculator.main
    :members:
    :undoc-members:
    :show-inheritance:

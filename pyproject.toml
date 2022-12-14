@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools"]
-backend = "setuptools.build_meta"
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "calculator"
@@ -8,15 +8,30 @@ description = "Basic calculator application to learn python distribution"
 # readme = "README.rst"
 requires-python = ">=3.7"
 keywords = ["test", "args", "pytest", "toml", "mypy", "pylint", "flask"]
-# license = {LICENSE}
+license = {text = "BSD 3-Clause License"}
 classifiers = [
     "Programming Language :: Python :: 3"
 ]
-dependencies = [
+dependencies = []
+dynamic = ["version"]
+
+[project.scripts]
+run = "calculator.main:main"
+
+[project.optional-dependencies]
+build = [
+    "build"
+]
+test = [
     "pylint",
     "mypy",
     "pytest",
     "pytest-cov",
     "tox",
+    "flake8",
+    "black"
 ]
-version = "1.0.0"
+doc = [
+    'sphinx',
+    'sphinx_rtd_theme',
+]
