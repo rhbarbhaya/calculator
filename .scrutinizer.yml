@@ -8,6 +8,5 @@ build:
               file: '.coverage'
               config_file: '.coveragerc'
               format: 'py-cc'
-    tox:
       override:
         - command: 'tox'
