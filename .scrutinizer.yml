@@ -8,8 +8,9 @@ build:
     nodes:
         coverage:
             tests:
-                coverage:
-                    file: ".coverage"
+                override:
+                    coverage:
+                        file: ".coverage"
     tests:
         before:
             - pip install coverage
