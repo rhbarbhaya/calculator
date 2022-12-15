@@ -1,6 +1,23 @@
+checks:
+    python:
+        code_rating: true
+        duplicate_code: true
+filter:
+    paths: ["calculator/*", "tests/*"]
 build:
-  nodes:
-    coverage:
-      tests:
-        coverage:
-          file: '.coverage'
+  environment:
+        python: ">=3.8"
+        override:
+            - true
+    tests:
+        before:
+            - pip install coverage
+            - pip install tox
+        override:
+            -
+                command: 'tox'
+                coverage:
+                    file: '.coverage'
+                    config_file: '.coveragerc'
+                    format: 'py-cc'
+            - py-scrutinizer-run
