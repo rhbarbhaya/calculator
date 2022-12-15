@@ -5,7 +5,7 @@ checks:
 filter:
     paths: ["calculator/*", "tests/*"]
 build:
-  environment:
+    environment:
         python: ">=3.8"
         override:
             - true
