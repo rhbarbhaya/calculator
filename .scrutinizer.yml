@@ -9,8 +9,8 @@ build:
         coverage:
             tests:
                 override:
-                    - true
-                    coverage:
+                    - command: './run-tests.sh'
+                      coverage:
                         file: ".coverage"
     tests:
         before:
