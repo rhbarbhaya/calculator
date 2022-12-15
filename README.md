@@ -11,6 +11,7 @@
 ![tox tested](https://img.shields.io/badge/tox-check-brightgreen?logo=python)
 ![mypy test](https://img.shields.io/badge/mypy-check-brightgreen?logo=python)
 ![python version tested](https://img.shields.io/badge/versions-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-brightgreen?logo=python)
+![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/rhbarbhaya/calculator/main?logo=scrutinizer)
 
 This is a packing and running training for python package.
 
