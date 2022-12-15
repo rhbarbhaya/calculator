@@ -9,7 +9,7 @@ build:
         coverage:
             tests:
                 override:
-                    -
+                    - true
                     coverage:
                         file: ".coverage"
     tests:
