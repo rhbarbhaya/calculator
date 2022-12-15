@@ -9,8 +9,6 @@ build:
         python: ">=3.8"
     override:
         - true
-        coverage:
-            file: '.coverage'
     tests:
         before:
             - pip install coverage
