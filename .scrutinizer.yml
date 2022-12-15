@@ -7,8 +7,9 @@ filter:
 build:
     nodes:
         coverage:
-            coverage:
-                file: ".coverage"
+            tests:
+                coverage:
+                    file: ".coverage"
     tests:
         before:
             - pip install coverage
