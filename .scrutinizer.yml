@@ -13,7 +13,7 @@ build:
         before:
             - pip install coverage
             - pip install tox
-        script:
+        after:
             - command: 'tox'
         coverage:
             file: '.coverage'
