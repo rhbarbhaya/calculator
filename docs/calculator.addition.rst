@@ -1,21 +1,10 @@
-calculator.addition package
+Addition package
 ===========================
 
-Submodules
-----------
-
-calculator.addition.add module
+Addition module
 ------------------------------
 
 .. automodule:: calculator.addition.add
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-Module contents
----------------
-
-.. automodule:: calculator.addition
    :members:
    :undoc-members:
    :show-inheritance:

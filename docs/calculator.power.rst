@@ -1,21 +1,10 @@
-calculator.power package
+Power package
 ========================
 
-Submodules
-----------
-
-calculator.power.power module
+Power module
 -----------------------------
 
 .. automodule:: calculator.power.power
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-Module contents
----------------
-
-.. automodule:: calculator.power
    :members:
    :undoc-members:
    :show-inheritance:

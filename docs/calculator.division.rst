@@ -1,21 +1,10 @@
-calculator.division package
+Division package
 ===========================
 
-Submodules
-----------
-
-calculator.division.divide module
+Division module
 ---------------------------------
 
 .. automodule:: calculator.division.divide
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-Module contents
----------------
-
-.. automodule:: calculator.division
    :members:
    :undoc-members:
    :show-inheritance:

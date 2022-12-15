@@ -1,11 +1,11 @@
 """Entry point script"""
 
-from addition.add import add
-from absolute.absolute import abso
-from subtraction.sub import sub
-from multiplication.multiply import mul
-from division.divide import div
-from power.power import power
+from addition import add
+from absolute import abso
+from subtraction import sub
+from multiplication import mul
+from division import div
+from power import power
 
 
 def main() -> None:
