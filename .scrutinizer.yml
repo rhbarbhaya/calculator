@@ -5,16 +5,9 @@ checks:
 filter:
     paths: ["calculator/*", "tests/*"]
 build:
-    environment:
-        python: ">=3.8"
-    # override:
-    #     - true
     tests:
         before:
             - pip install coverage
             - pip install tox
         after:
             - command: 'tox'
-            # config_file: '.coveragerc'
-            # format: 'py-cc'
-        # - py-scrutinizer-run
