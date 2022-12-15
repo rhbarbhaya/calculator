@@ -7,8 +7,8 @@ filter:
 build:
     environment:
         python: ">=3.8"
-    override:
-        - true
+    # override:
+    #     - true
     tests:
         before:
             - pip install coverage
