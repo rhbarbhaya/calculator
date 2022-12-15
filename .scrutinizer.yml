@@ -5,6 +5,10 @@ checks:
 filter:
     paths: ["calculator/*", "tests/*"]
 build:
+    nodes:
+        coverage:
+            coverage:
+                file: ".coverage"
     tests:
         before:
             - pip install coverage
