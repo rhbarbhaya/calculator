@@ -1,5 +1,8 @@
 # Package and Run Python Project
 
+![GitHub](https://img.shields.io/github/license/rhbarbhaya/calculator?logo=python)
+
+
 This is a packing and running training for python package.
 
 1. Store all the python code in a folder.
