@@ -11,5 +11,3 @@ build:
     tox:
       override:
         - command: 'tox'
-          coverage:
-            file: 'tox.ini'
