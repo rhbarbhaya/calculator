@@ -8,4 +8,3 @@ This is a packing and running training for python package.
 4. Sample `pyproject.toml` file used for this project is attached.
 5. Using `python -m build`, build the distribution package(s).
 6. Running the `unzip.sh` file should run all the scripts as defined in the `deploy` folder.
-
