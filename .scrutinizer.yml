@@ -2,11 +2,6 @@ build:
   nodes:
     coverage:
       tests:
-        override:
-          - command: './run-tests.sh'
-            coverage:
-              file: '.coverage'
-              config_file: '.coveragerc'
-              format: 'py-cc'
-      override:
-        - command: 'tox'
+        coverage:
+          file: '.coverage'
+          - command: 'tox'
