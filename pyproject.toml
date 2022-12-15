@@ -15,6 +15,9 @@ classifiers = [
 dependencies = []
 dynamic = ["version"]
 
+[tool.setuptools]
+py-modules = ["calculator", "run_scripts"]
+
 [project.scripts]
 run = "calculator.main:main"
 
