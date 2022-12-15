@@ -3,7 +3,7 @@
 from typing import Union
 
 
-def sub(num1: Union[int, float],num2: Union[int, float],) -> Union[int, float]:
+def sub(num1: Union[int, float], num2: Union[int, float],) -> Union[int, float]:
     """Subtracts the second number from the first number
     and returns the result
 
