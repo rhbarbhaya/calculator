@@ -8,7 +8,7 @@ description = "Basic calculator application to learn python distribution"
 # readme = "README.rst"
 requires-python = ">=3.7"
 keywords = ["test", "args", "pytest", "toml", "mypy", "pylint", "flask"]
-license = {text = "BSD 3-Clause License"}
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3"
 ]
